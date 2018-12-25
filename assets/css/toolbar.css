@@ -1,0 +1,19 @@
+.container .wrapper .toolbar {
+	text-align: left;
+	background-color: transparent;
+	width: 100%;
+	padding-top: 93%;
+	margin: 10px;
+}
+.container .wrapper .toolbar div{
+	float: left;
+	padding: 10px;
+}
+.container .wrapper .toolbar div span{
+	font-size: 30px;
+	color: grey;
+}
+.container .wrapper .toolbar div img{
+	 width: 50px;
+	 height: auto;
+}

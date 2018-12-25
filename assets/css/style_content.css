@@ -1,0 +1,8 @@
+#konten{
+	float: left;
+	width: 30%;
+}
+#konten{
+	content: "";
+	clear: both;
+}

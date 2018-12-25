@@ -1,0 +1,22 @@
+.galeri{
+  padding: 30px;
+}
+.gambar{
+  border-radius: 10px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .konten, .konten .row .col-md-1, .konten .row div .body-konten img {
+    width: inherit;
+  }
+  
+  .konten .row div .body-konten .caption-box {
+    width: inherit;
+    position: relative;
+    left: inherit;
+  }
+
+  .konten .row div .body-konten img{
+    height: auto;
+  }
+}

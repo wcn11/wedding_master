@@ -1,0 +1,22 @@
+.kanan{
+	float: left;
+	width: 13%;
+}
+.kanan:after{
+	content: '';
+	clear: both;
+}
+.kanan .row .col-md-1{
+	width: 100%;
+	
+}
+.kanan .row .col-md-1 .body-konten img{
+	width: 100%;
+}
+
+
+@media screen and (max-width: 768px){
+	.kanan{
+		width: 100%;
+	}
+}

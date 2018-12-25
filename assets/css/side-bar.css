@@ -1,0 +1,185 @@
+/*====================== SIDE BAR KIRI ===========================*/
+div.kiri{
+	top: 50px;
+	position: sticky;
+	border-right: 1px solid gray;
+	width: 15%;
+	float: left;
+	height: 100%;
+	border-bottom: 1px dotted grey;
+	overflow: auto;
+	display: block;
+}
+.btn-nav{
+	z-index: 0 !important;
+}
+div.kiri:after{
+	content: "";
+	clear: both;
+}
+.kiri-wrapper div{
+	float: left;
+}
+.garis-per-sidebar{
+	border-bottom: 1px dotted grey;
+}
+#paket{
+	width: 100%;
+}
+#negara, #kategori, #harga, #paket{
+	margin-left: 10px;
+	float: left;
+}
+#negara:hover, #kategori:hover, #harga:hover, #paket:hover{
+	cursor: pointer;
+	background-color: #dddddd;
+}
+#negara-target, #kategori-target, #harga-target{
+	margin-left: 31px;
+}
+#negara, #harga, #kategori, #paket{
+	padding: 10px;
+}
+#span-negara{
+	float: right;
+	margin-top: 6px;
+	margin-left: 155px;
+}
+#span-kategori{
+	float: right;
+	margin-top: 6px;
+	margin-left: 21px;
+}
+#span-harga{
+	float: right;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.kotak{
+	height: 120px;
+	width: 200px;
+	overflow: auto;
+	border: 1px solid grey;
+	margin: 5px;
+	margin-bottom: 15px;
+	font-size: 10px;
+}
+.input-wrapper{
+	padding: 3px;
+	margin-top: 1px;
+}
+.kotak input{
+	margin: 0;
+	margin-left: 5px;
+}
+#harga-target{
+	padding-bottom: 10px;
+}
+
+div#sidebar-nav{
+	margin-left: 10px;
+}
+div#sidebar-nav span{
+	font-size: 20px;
+	margin: 10px;
+	padding: 5px;
+}
+div#sidebar-nav div span:hover{
+	background-color: rgba(255, 234, 234, 1);
+	padding-right: 3px;
+	padding-left: 3px;
+
+}
+#garis-vertikal{
+	margin-top: 5px;
+	width: 0px;
+	height: 20px;
+	border: 1px dotted grey;
+}
+#tooltip + .tooltip > .tooltip-inner {
+      background-color: white; 
+      color: #F44E95; 
+      border: 1px solid green; 
+      padding: 10px;
+      font-size: 12px;
+}
+#tooltip + .tooltip > .tooltip-arrow {
+	border-bottom: 1px solid #F44E95;
+	
+}
+#negara-dropdown, #adat-dropdown, #kategori-dropdown, #harga-dropdown{
+		display: none;
+}
+
+.label-hover{
+	font-weight: normal;
+}
+.label-hover:hover{
+	cursor: pointer;
+}
+/*============================ SIDE BAR KANAN =====================*/
+
+
+
+
+@media screen and (max-width: 768px){
+	/*============================ SIDE BAR KIRI RESPONSIVE =====================*/
+	div.kiri{
+		width: 100%;
+		position: relative;
+		border-right: 0px solid grey;
+		margin-bottom: 30px;
+		padding-bottom: 200px;
+	}
+
+	.kiri-wrapper div{
+		float: none;
+	}
+	.kiri-wrapper div:after{
+		content: "";
+		clear: both;
+	}
+	.garis-per-sidebar{
+		border-bottom: 1px dotted grey;
+	}
+	#negara, #kategori, #harga, #negara-target, #kategori-target, #harga-target{
+		display: none;
+		z-index: 2;
+	}
+
+	/* UNTUK SIDEBAR RESPONSIVE */
+	#negara-dropdown, #kategori-dropdown, #harga-dropdown{
+		float: left;
+		display: inline;
+		z-index: 2;
+	}
+	#negara-dropdown:after, #kategori-dropdown:after, #harga-dropdown:after{
+		content: "";
+		clear: both;
+		z-index: 2;
+	}
+	#dropdown-menu{
+		z-index: 2;
+	}
+	.kotak{
+		border: 1px solid grey;
+	}
+	#sidebar-nav{
+		float: left;
+	}
+	#garis-vertikal{
+		display: none;
+	}
+	#side1{
+		float: left;
+		margin-top: 10px;
+	} /* AKHIR SIDE BAR KIRI RESPONSIVE*/
+
+
+	/*======================= SIDE BAR KANAN RESPONSIVE =====================*/
+
+}
+
+
+
+
